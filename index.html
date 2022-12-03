@@ -16,10 +16,13 @@
         <div class="col-xs-12 col-lg-6">
           <div style="display:flex;flex-direction:row;justify-content:space-between;align-items:center">
             <div><a href="/" style="text-decoration:none"><img src="images/sqlboss-banner.png" class="logo" /></a></div>
-            <div><a class="go-to-training" href="https://training.sqlboss.co/">Go to training</a></div>
+            <div style="display:flex;flex-direction:row;justify-content:left;align-items:center">
+              <div style="padding-right:24px"><a class="go-to-training" href="#pricing">Pricing</a></div>
+              <div><a class="go-to-training" href="https://training.sqlboss.co/">Login</a></div>
+            </div> 
           </div>
 
-          <h1>Do you need to master <span class="purple-text-span">SQL reporting?</span></h1>
+          <h1>Do you need to master <span class="purple-text-span">SQL queries?</span></h1>
 
           <div class="intro">
             <p><span style="font-weight:800">Hi there 👋</span></p>
@@ -55,22 +58,21 @@
             <p>You’d internalize all the concepts and <strong>develop your muscle memory</strong>. No need for constant Googling, cheat sheets and endless Youtube tutorials. You’d write even the most advanced SQL queries in a state of flow, without breaking a sweat.</p> 
           </div>
 
-          <!-- Practice like Jordan. Meet the SQL Boss course. -->
+          <!-- Practice like Jordan. Meet the SQL Boss screencasts -->
           <div class="lp-item">
-            <h2>Practice like Jordan with the <span class="blue-text-span">SQL Boss course</span></h2>
+            <h2>Practice like Jordan with the <span class="blue-text-span">SQL Boss screencasts</span></h2>
 
             <p>My name is Ismaël (➡️  <a href="https://www.linkedin.com/in/ismaelsow/" target="_blank">LinkedIn</a>) and I’ve been a false beginner in SQL for most of my professional life. I followed countless tutorials, watched tons of Youtube videos, and read many books. No luck, I was still struggling when faced with real-world SQL problems to solve.
             </p> 
 
-            <p>I found that if I wanted to master SQL, I’d have to <strong>practice it deliberately, with a truckload of carefully designed exercises, with real-world use cases</strong>. It turns out such training resources were rare. That’s why I created SQL Boss. It’s an SQL course that focuses on learning by practicing like an athlete. Here’s how it works:
+            <p>I found that if I wanted to master SQL, I’d have to <strong>practice it deliberately, with a truckload of carefully designed exercises, with real-world use cases</strong>. It turns out such training resources were rare. That’s why I created SQL Boss. It’s an SQL screencast series that focuses on learning by practicing like an athlete. Here’s how it works:
             </p>
             <ul>
+              <li><strong>Intense practice:</strong> each concept and screencast comes with a boatload of exercises. Each exercise has a video explaining the solution in great detail.</li>
+              <li><strong>Careful pacing:</strong> we introduce one concept at a time and make you master it before introducing the next one.</li>
               <li><strong>Google Merchandise Store analytics dataset:</strong> no more contrived, unrealistic examples. You get to work on an actual ecommerce store dataset with real-world problems to solve.</li>
               <li><strong>Google BigQuery database:</strong> nothing to install on your computer, you query the dataset on the cloud using Google cutting-edge SQL database (and you get to add a cool buzzword to your CV).</li>
-              <li><strong>Careful pacing:</strong> we introduce one concept at a time and make you master it before introducing the next one.</li>
-              <li><strong>Intense practice:</strong> each concept is comes with many exercises, with each exercise having a video explaining the solution in great detail.</li>
               <li><strong>Mentor and community support:</strong> you get access to a private community where you can post comments, ask questions and get answers from me and a team of SQL veterans.</li>
-              <li><strong>Lifetime updates:</strong> you get lifetime access to the training material and to the community space. New lessons, exercises, and challenges are posted weekly and keep you sharp.</li>
             </ul>
           </div>
 
@@ -85,12 +87,7 @@
             <p>We'll use a lot of SQL functions. SQL functions are somewhat similar to Excel functions, if that rings a bell.</p>
           </div>
 
-          <h2><span class="yellow-text-span">Topics covered</span></h2>
-
-          <div class="chapter">
-            <strong>⚠️  Reporting only</strong>
-            <p>The course focuses on querying SQL tables and does not include data manipulation. <strong>We don't have lessons on creating, updating or deleting records, tables and databases</strong>. The course's sole goal is to turn you into a master at answering questions with SQL.</p>
-          </div>
+          <h2><span class="yellow-text-span">Topic roadmap</span></h2>
 
           <div class="chapter">
             <strong>☕ Intro to SQL, BigQuery & GA4 Dataset:</strong>
@@ -163,54 +160,91 @@
           </div>
 
 
-          <h2>🔥 Ready to master SQL reporting? Good choice. 🔥</h2>
+          <h2 id="pricing">🔥Ready to master SQL?🔥</h2>
+
+          <!-- Individual plans -->
+          <div style="padding-top:24px"></div>
+          <h3><span class="grey-text-span">Personal plans</span></h3>
           <div class="plans">
-            <!-- Solo plan -->
+            <!-- Individual plan -->
             <div class="pricing-plan">
               <div style="display:flex">
-                <div><strong> Personal access</strong></div>
+                <div><strong>Personal - Monthly</strong></div>
               </div>
               <div style="padding-top:38px !important;display:flex;padding-top:16px;align-items:center;justify-content:center;">
-                <div class="price">$299</div>
+                <div class="price">$19</div>
                 <div style="display:flex;flex-direction:column;padding-left:12px">
-                  <div>one-time<br>payment</div>
+                  <div>/month</div>
                 </div>
               </div>
-              <div class="btn-wrapper"><a href="https://training.sqlboss.co/checkout/solo-membership"><button class="btn btn-dark" style="width:100%">Get early access</button></a></div>
+              <div class="btn-wrapper"><a href="https://training.sqlboss.co/checkout/monthly-solo-membership"><button class="btn btn-dark" style="width:100%">Get monthly access</button></a></div>
               <ul> 
                 <li>Exhaustive lessons</li>
                 <li>Titanic amount of exercises</li>
                 <li>Private community with mentor support</li>
                 <li>Real ecommerce store analytics dataset</li>
-                <li>Google BigQuery database and public datasets</li>
+                <li>Practice on Google BigQuery</li>
               </ul>
             </div>
 
-            <!-- Team plan -->
+            <!-- Annual plan -->
             <div class="pricing-plan">
               <div style="display:flex">
                 <div></div>
-                <div><strong> Team access</strong></div>
+                <div><strong>Personal - Annual</strong></div>
               </div>
               <div style="padding-top:38px !important;display:flex;padding-top:16px;align-items:center;justify-content:center;">
-                <div class="price">$1200</div>
+                <div class="price">$190</div>
                 <div style="display:flex;flex-direction:column;padding-left:12px">
-                  <div>one-time<br>payment</div>
+                  <div>/year</div>
                 </div>
               </div>
-              <div class="btn-wrapper"><a href="https://training.sqlboss.co/checkout/team-membership"><button class="btn btn-dark" style="width:100%">Get early access</button></a></div>
-              <p>Give access to your whole team — team licenses include access for up to 25 people.</p>
+              <div class="btn-wrapper"><a href="https://training.sqlboss.co/checkout/annual-solo-membership"><button class="btn btn-dark" style="width:100%">Get yearly access</button></a></div>
+              <ul> 
+                <li>Exhaustive lessons</li>
+                <li>Titanic amount of exercises</li>
+                <li>Private community with mentor support</li>
+                <li>Real ecommerce store analytics dataset</li>
+                <li>Practice on Google BigQuery</li>
+              </ul>
             </div>
           </div>
 
-          <h3 style="padding-top:48px">Early access program</h3>
-          <p>The SQL Boss course is under active development and will ship early January 2023. New content is released every week. Get in early and enjoy the following benefits:</p>
-          <ul> 
-            <li>Submit feature requests.</li>
-            <li>Get free access to all future courses.</li>
-            <li>Future courses will include:</li>
-            <li>Tableau, Power BI, Python+pandas, and statistics.</li>
-          </ul>
+          <!-- Team plans -->
+          <div style="padding-top:48px"></div>
+          <h3><span class="grey-text-span">Team plans</span></h3>
+          <div class="plans">
+            <!-- Individual plan -->
+            <div class="pricing-plan">
+              <div style="display:flex">
+                <div><strong>Up to 10 seats</strong></div>
+              </div>
+              <div style="padding-top:38px !important;display:flex;padding-top:16px;align-items:center;justify-content:center;">
+                <div class="price">$1900</div>
+                <div style="display:flex;flex-direction:column;padding-left:12px">
+                  <div>/year</div>
+                </div>
+              </div>
+              <div class="btn-wrapper"><a href="https://training.sqlboss.co/checkout/10-seat-team-access"><button class="btn btn-dark" style="width:100%">Get 10-seat team access</button></a></div>
+              <p>Give access to your team — up to 10 people.</p>
+            </div>
+
+            <!-- Annual plan -->
+            <div class="pricing-plan">
+              <div style="display:flex">
+                <div></div>
+                <div><strong>Up to 25 seats</strong></div>
+              </div>
+              <div style="padding-top:38px !important;display:flex;padding-top:16px;align-items:center;justify-content:center;">
+                <div class="price">$4750</div>
+                <div style="display:flex;flex-direction:column;padding-left:12px">
+                  <div>/year</div>
+                </div>
+              </div>
+              <div class="btn-wrapper"><a href="https://training.sqlboss.co/checkout/25-seat-team-access"><button class="btn btn-dark" style="width:100%">Get 25-seat team access</button></a></div>
+              <p>Give access to your team — up to 25 people.</p>
+            </div>
+          </div>
 
         </div>
 
