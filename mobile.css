@@ -2,6 +2,10 @@
   max-width: 250px;
 }
 
+.go-to-training {
+  display: none;
+}
+
 .top-section {
   padding-top: 156px;
 }
@@ -73,4 +77,20 @@ li {
 
 .footer {
   font-size: 32px;
+  margin-top: 96px;
+  text-align: center;
+}
+
+.formkit-field {
+  padding-top: 56px !important;
+}
+
+.formkit-input {
+  font-size: 64px !important;
+  line-height: 84px !important;
+}
+
+.formkit-submit.formkit-submit {
+  font-size: 64px !important;
+  line-height: 84px !important;
 }
