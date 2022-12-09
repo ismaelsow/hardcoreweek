@@ -2,8 +2,8 @@
   max-width: 250px;
 }
 
-.go-to-training {
-  display: none;
+.mobile-margin-48 {
+  margin-top: 48px;
 }
 
 .top-section {
@@ -73,6 +73,15 @@ li {
 
 .price {
   font-size:72px;
+}
+
+.cta {
+  width:100%;
+  font-size:48px !important;
+}
+
+.menu-links a {
+  font-size: 36px;
 }
 
 .footer {

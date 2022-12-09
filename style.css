@@ -73,6 +73,7 @@ li {
 a, a:hover, a:visited {
   color: black;
   text-decoration: none;
+  font-weight: 600;
 }
 
 a:hover {
@@ -111,7 +112,6 @@ a:hover {
 .footer {
   font-size: 16px;
   margin-top: 48px;
-  text-align: center;
 }
 
 .purple-text-span {
@@ -126,9 +126,9 @@ a:hover {
 
 .red-text-span {
   display: inline-block;
-  padding-right: 10px;
-  padding-bottom: 6px;
-  padding-left: 10px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
   border-radius: 10px;
   background-color: #f24e1e;
   color: #fff;
@@ -136,9 +136,9 @@ a:hover {
 
 .green-text-span {
   display: inline-block;
-  padding-right: 10px;
-  padding-bottom: 6px;
-  padding-left: 10px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
   border-radius: 10px;
   background-color: #23AD5F;
   color: #fff;
@@ -146,9 +146,9 @@ a:hover {
 
 .blue-text-span {
   display: inline-block;
-  padding-right: 10px;
-  padding-bottom: 6px;
-  padding-left: 10px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
   border-radius: 10px;
   background-color: #4262FF;
   color: #fff;
@@ -156,9 +156,9 @@ a:hover {
 
 .yellow-text-span {
   display: inline-block;
-  padding-right: 10px;
-  padding-bottom: 6px;
-  padding-left: 10px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
   border-radius: 10px;
   background-color: #FECF43;
   color: #fff;
@@ -166,9 +166,9 @@ a:hover {
 
 .dark-blue-text-span {
   display: inline-block;
-  padding-right: 10px;
-  padding-bottom: 6px;
-  padding-left: 10px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
   border-radius: 10px;
   background-color: #050038;
   color: #fff;
@@ -176,12 +176,17 @@ a:hover {
 
 .grey-text-span {
   display: inline-block;
-  padding-right: 10px;
-  padding-bottom: 6px;
-  padding-left: 10px;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
   border-radius: 10px;
   background-color: #e9e9e9;
   color: #000;
+}
+
+.cta {
+  width:100%;
+  font-size:24px;
 }
 
 .seva-form.formkit-form {
