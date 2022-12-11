@@ -27,6 +27,7 @@ body {
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0px;
+  background-color: #FFFBF5;
 }
 
 .top-section {
@@ -121,7 +122,7 @@ a:hover {
   padding-left: 8px;
   border-radius: 10px;
   background-color: #a259ff;
-  color: #fff;
+  color: #FFF;
 }
 
 .red-text-span {
@@ -131,7 +132,7 @@ a:hover {
   padding-left: 8px;
   border-radius: 10px;
   background-color: #f24e1e;
-  color: #fff;
+  color: #FFF;
 }
 
 .green-text-span {
@@ -141,7 +142,7 @@ a:hover {
   padding-left: 8px;
   border-radius: 10px;
   background-color: #23AD5F;
-  color: #fff;
+  color: #FFF;
 }
 
 .blue-text-span {
@@ -151,7 +152,7 @@ a:hover {
   padding-left: 8px;
   border-radius: 10px;
   background-color: #4262FF;
-  color: #fff;
+  color: #FFF;
 }
 
 .yellow-text-span {
@@ -161,27 +162,31 @@ a:hover {
   padding-left: 8px;
   border-radius: 10px;
   background-color: #FECF43;
-  color: #fff;
+  color: #FFF;
 }
 
-.dark-blue-text-span {
+.black-text-span {
   display: inline-block;
   padding-right: 8px;
   padding-bottom: 4px;
   padding-left: 8px;
   border-radius: 10px;
-  background-color: #050038;
-  color: #fff;
+  background-color: #000000;
+  color: #FFF;
 }
 
-.grey-text-span {
+.teal-text-span {
   display: inline-block;
   padding-right: 8px;
   padding-bottom: 4px;
   padding-left: 8px;
   border-radius: 10px;
-  background-color: #e9e9e9;
-  color: #000;
+  background-color: #20d9d2;
+  color: #FFF;
+}
+
+.teal-text-span h3 {
+  color: #FFF;
 }
 
 .cta {
@@ -195,4 +200,21 @@ a:hover {
 
 .formkit-field {
   padding-top: 32px !important;
+}
+
+.scribbles-container {
+  position: relative;
+}
+
+.scribbles-container .top-section img.right {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+  position: absolute;
+  left: auto;
+  top: 50px;
+  right: 0;
+  bottom: 0;
+  width: 16vw;
+  max-width: 250px;
 }
