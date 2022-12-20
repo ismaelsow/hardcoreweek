@@ -2,6 +2,10 @@
   max-width: 250px;
 }
 
+.menu-links div {
+  padding-left: 48px;
+}
+
 .mobile-margin-48 {
   margin-top: 48px;
 }

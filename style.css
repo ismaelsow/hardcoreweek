@@ -34,6 +34,11 @@ body {
   padding-top: 36px;
 }
 
+.menu-links div {
+  padding-left: 16px;
+  display: none; /* while we don't have useful links for now */
+}
+
 h1, h2, h3 {
   font-family: 'Plus Jakarta Display';
   font-weight: 700;
