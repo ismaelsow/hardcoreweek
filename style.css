@@ -85,6 +85,30 @@ a:hover {
   padding-bottom: 28px;
 }
 
+.teacher-section {
+  display:flex;
+  padding-top:24px;
+}
+.teacher-visuals {
+  display:flex;
+  flex-direction:column;
+  padding-right:36px;
+  align-items:center;
+}
+.teacher-pic {
+  max-width:200px;
+  border-radius:50%;
+}
+.linkedin-icon {
+  width:24px
+}
+.teacher-visuals p:first-of-type {
+  padding-bottom:12px;
+}
+.teacher-visuals div:first-of-type {
+  padding-bottom:18px;
+}
+
 .plans {
   display:flex;
   flex-direction:row;
@@ -217,4 +241,23 @@ a:hover {
   bottom: 0;
   width: 16vw;
   max-width: 250px;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
 }
