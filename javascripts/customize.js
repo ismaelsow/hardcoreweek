@@ -11,4 +11,12 @@ if (mobileCheck()) {
   link.type = 'text/css';
   link.href = 'mobile.css';
   head.appendChild(link);
+
+  // Keep the teacher visuals above the teacher text
+  document.addEventListener("DOMContentLoaded", () => {
+    let albanNoutchaTeacher = document.querySelector(".teacher-section.alban-noutcha");
+    let albanNoutchaTeacherVisuals = document.querySelector(".teacher-visuals.alban-noutcha");
+    let albanNoutchaTeacherText = document.querySelector(".teacher-text.alban-noutcha");
+    albanNoutchaTeacher.insertBefore(albanNoutchaTeacherVisuals, albanNoutchaTeacherText);
+  });
 }
