@@ -127,3 +127,7 @@ li {
 .scribbles-container {
   display: none;
 }
+
+.pricing-subtitle {
+  font-size: 36px;
+}
