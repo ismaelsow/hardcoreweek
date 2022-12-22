@@ -17,7 +17,6 @@
 
 .teacher-section {
   flex-direction: column;
-  align-items: start;
 }
 .teacher-visuals {
   padding-bottom: 72px;

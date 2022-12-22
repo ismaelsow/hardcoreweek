@@ -87,12 +87,13 @@ a:hover {
 }
 
 .chapter {
-  padding-bottom: 28px;
+  padding-bottom: 16px;
 }
 
 .teacher-section {
   display:flex;
   padding-top:24px;
+  padding-bottom: 48px;
 }
 .teacher-visuals {
   display:flex;
@@ -212,6 +213,20 @@ a:hover {
 }
 
 .teal-text-span h3 {
+  color: #FFF;
+}
+
+.grey-text-span {
+  display: inline-block;
+  padding-right: 8px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  border-radius: 10px;
+  background-color: #CCC;
+  color: black;
+}
+
+.grey-text-span h3 {
   color: #FFF;
 }
 
